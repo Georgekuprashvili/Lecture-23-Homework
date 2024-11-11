@@ -21,7 +21,7 @@
 // 4
 // let Names = ["giorgi", "mari", "ani"];
 // let fullname = Names.reduce((acc, cur) => {
-//   return acc + "" + cur;
+//   return acc + cur;
 // });
 // console.log(fullname);
 
@@ -29,7 +29,7 @@
 // let number = [10, 13, 15, 14, 88];
 // let numbers = number.reduce((acc, cur) => {
 //   return acc * cur;
-// }, 1);
+// });
 // console.log(numbers);
 
 // // 7
@@ -71,7 +71,7 @@
 // function Giorgi() {
 //   let text = document.querySelectorAll("#container p");
 //   text.forEach((one) => {
-//     one.textContent += " giorgi";
+//     one.textContent += "giorgi";
 //   });
 // }
 // console.log(Giorgi());
